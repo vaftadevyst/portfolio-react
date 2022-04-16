@@ -47,13 +47,11 @@ textarea {
 
 @media screen and (max-width: 480px) {
     .contact--form {
-        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         text-align: center;
-        height: 80vh;
-        margin-top: 5rem;
+        height: 54rem;
     }
     .c-right .user{
         width: 18rem;
