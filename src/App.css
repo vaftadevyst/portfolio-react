@@ -1,7 +1,8 @@
 :root
 {
-  --yellow: #F5C32C;
-    --orange : #FCA61F;
+  --first-color: rgb(50,50,255);
+  --second-color: rgb(106,90,205);
+  --third-color: rgb(48, 205, 176);
     --black : #242D49;
     --gray : #788097;
     --blueCard : #DDF8FE;
@@ -16,8 +17,27 @@
     overflow: hidden;
     color: var(--black);    
 }
+.button {
+  border-radius: 34px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 12px 26px;
+  background: linear-gradient(180deg, var(--second-color) 26.71%, var(--first-color) 99.36%);
+  box-shadow: 0px 20px 24px 3px rgba(125, 130, 255, 0.45);
+}
+.button:hover {
+  background: white;
+  cursor: pointer;
+  color: var(--second-color);
+  border: 1px solid var(--second-color);
+}
 
-
+@media screen and (max-width: 480px) {
+  .App {
+    padding: .5rem 1rem;
+  }
+}
   
 
   
