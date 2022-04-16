@@ -20,28 +20,28 @@ const Portfolio = () => {
         <span>Portfolio</span>
         {/* slider */}
         <Swiper
-        spaceBetween={30}
-        slidesPerView={3}
+        spaceBetween={80}
+        slidesPerView={4}
         grabCursor={true}
         className='portfolio-slider'
         >
             <SwiperSlide>
-                <img src={project1} alt="" />
+                <a target='_blank' href={project1}><img src={project1} alt="" /></a> 
             </SwiperSlide>
             <SwiperSlide>
-                <img src={project2} alt="" />
-            </SwiperSlide>{" "}
-            <SwiperSlide>
-                <img src={project3} alt="" />
+                <a target='_blank' href={project2}><img src={project2} alt="" /></a>
             </SwiperSlide>
             <SwiperSlide>
-                <img src={project4} alt="" />
+                <a target='_blank' href={project3}><img src={project3} alt="" /></a>
             </SwiperSlide>
             <SwiperSlide>
-                <img src={project5} alt="" />
+                <a target='_blank' href={project4}><img src={project4} alt="" /></a>
             </SwiperSlide>
             <SwiperSlide>
-                <img src={project6} alt="" />
+                <a target='_blank' href={project5}><img src={project5} alt="" /></a>
+            </SwiperSlide>
+            <SwiperSlide>
+                <a target='_blank' href={project6}><img src={project6} alt="" /></a>
             </SwiperSlide>
         </Swiper>
     </div> 
