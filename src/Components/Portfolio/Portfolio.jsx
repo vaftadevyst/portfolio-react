@@ -2,10 +2,12 @@ import React from 'react'
 import './Portfolio.css'
 import 'swiper/css'
 import {Swiper, SwiperSlide} from 'swiper/react'
-import Sidebar from '../../img/sidebar.png'
-import Ecommerce from '../../img/ecommerce.png'
-import MusicApp from '../../img/musicapp.png'
-import hoc from '../../img/hoc.png'
+import project1 from '../../img/8.png'
+import project2 from '../../img/9.png'
+import project3 from '../../img/10.png'
+import project4 from '../../img/11.png'
+import project5 from '../../img/12.png'
+import project6 from '../../img/13.png'
 import { themeContext } from '../../Context'
 import { useContext } from 'react'
 const Portfolio = () => {  
@@ -24,16 +26,22 @@ const Portfolio = () => {
         className='portfolio-slider'
         >
             <SwiperSlide>
-                <img src={Sidebar} alt="" />
+                <img src={project1} alt="" />
             </SwiperSlide>
             <SwiperSlide>
-                <img src={Ecommerce} alt="" />
+                <img src={project2} alt="" />
             </SwiperSlide>{" "}
             <SwiperSlide>
-                <img src={MusicApp} alt="" />
+                <img src={project3} alt="" />
             </SwiperSlide>
             <SwiperSlide>
-                <img src={hoc} alt="" />
+                <img src={project4} alt="" />
+            </SwiperSlide>
+            <SwiperSlide>
+                <img src={project5} alt="" />
+            </SwiperSlide>
+            <SwiperSlide>
+                <img src={project6} alt="" />
             </SwiperSlide>
         </Swiper>
     </div> 

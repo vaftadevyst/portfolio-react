@@ -43,6 +43,7 @@ const Services = () => {
                 <Card
                 emoji = {HeartEmoji}
                 heading = {'Data Analyst'}
+                link = {'https://github.com/vaftadevyst'}
                 detail = {'Python, Excel, Tableau, Power BI, Data Studio, MySQL'}
                 />
             </motion.div> 
@@ -54,6 +55,7 @@ const Services = () => {
                 <Card
                 emoji = {Glasses}
                 heading = {'Web Developer'}
+                link = {'https://github.com/vaftadevyst'}
                 detail = {'HTML, CSS, Javascript, React, PHP, MySQL'}
                 />
             </motion.div>
@@ -65,6 +67,7 @@ const Services = () => {
                 <Card
                 emoji = {Humble}
                 heading = {'Ad Operations'}
+                link = {'https://github.com/vaftadevyst'}
                 detail = {'Ecommerce Ads, Tiktok Ads, Facebook Ads, Google Ads'}
                 />
             </motion.div>

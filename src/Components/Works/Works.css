@@ -53,6 +53,7 @@
     box-shadow: var(--smboxShadow);
 }
 .secCircle img {
+    width: 5rem;
     transform: scale(.6);
 }
 .w-backCircle {

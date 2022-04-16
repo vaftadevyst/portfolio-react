@@ -2,34 +2,39 @@ import React from 'react'
 import './Testimonial.css'
 import 'swiper/css'
 import 'swiper/css/pagination'
-import profilePic1 from '../../img/profile1.jpg'
-import profilePic2 from '../../img/profile2.jpg'
-import profilePic3 from '../../img/profile3.jpg'
-import profilePic4 from '../../img/profile4.jpg'
+import python from '../../img/python.png'
 import {Swiper, SwiperSlide} from 'swiper/react'
 import {Pagination} from 'swiper'
 
 const Testimonial = () => {
     const clients=[
         {
-            img: profilePic1,
+            img: python,
+            heading: "Sales Data Analysis",
+            url: "https://medium.com/@abizaregi21/sales-data-analysis-with-python-part-ii-f09ddf134f9d",
             review:
-            "lorem ipsum dolor",
+            "visualize sales data and predict future sales data based on past data",
         },
         {
-            img: profilePic2,
+            img: python,
+            heading: "Churn Customer Prediction",
+            url: "https://medium.com/@abizaregi21/predicting-exited-churn-for-bank-customers-7d02a72ce510",
             review:
-            "lorem ipsum dolor",
+            "predict potential customer churn based on historical data from customers",
         },
         {
-            img: profilePic3,
+            img: python,
+            heading: "Bank Customer Segmentation",
+            url: "https://medium.com/@abizaregi21/bank-customer-segmentation-with-kmeans-d9cf95e297c9",
             review:
-            "lorem ipsum dolor",
+            "visualize bank customer data and segment bank customers based on age and balance",
         },
         {
-            img: profilePic4,
+            img: python,
+            heading: "Analysis of Return Rate",
+            url: "https://medium.com/@abizaregi21/analysis-of-return-rate-stock-208e40b32979",
             review:
-            "lorem ipsum dolor",
+            "visualize the return rate of a stock in the stock market and compare it with other stocks",
         },
 
     ]
@@ -53,7 +58,12 @@ const Testimonial = () => {
                     <SwiperSlide key={index}>
                         <div className="testimonial">
                             <img src={client.img} alt="" />
-                            <span>{client.review}</span>
+                            <div className="t-content">
+                                <span>{client.heading}</span>
+                                <span>{client.review}</span>
+                                <a target='_blank' href={client.url}><button className='button b-button'>Read More</button></a>
+                            </div>
+                            
                         </div>
                     </SwiperSlide>
                 );

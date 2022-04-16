@@ -1,10 +1,10 @@
 import React from 'react'
 import './Works.css'
-import Upwork from "../../img/Upwork.png"
-import Fiverr from "../../img/fiverr.png"
-import Amazon from "../../img/amazon.png"
-import Shopify from "../../img/Shopify.png"
-import Facebook from "../../img/Facebook.png"
+import python from "../../img/python.png"
+import javascript from "../../img/js.png"
+import reacticon from "../../img/React.png"
+import sql from "../../img/sql.png"
+import powerbi from "../../img/power-bi.png"
 import { themeContext } from '../../Context'
 import { useContext } from 'react' 
 import { motion } from 'framer-motion'
@@ -17,17 +17,15 @@ const Works = () => {
         {/* left side */}
         <div className="awesome">
             <span style={{color: darkMode? 'white': ''}}
-            >Works for All these</span>
-            <span>Brands & Clients</span>
+            >Current Skills</span>
+            <span>Programming Language</span>
             <span>
-            Analyze raw data accurately, 
-            valuable and easy to understand for 
-            decision making. <br /> Also, build 
-            websites with attractive appearance, 
-            features and amazing user interface 
-            <br /> for user convenience.
+            Analyze data using Python and Excel, create interactive dashboard <br />
+            using Excel macro & VBA or Business Intelligence tools like Tableau <br />
+            and Power BI. Learn to build responsive and interactive website with <br />
+            HTML, CSS, React and JS, also build dynamic website with PHP and MySQL.
             </span>
-            <a>
+            <a href="mailto: abizaregi21@gmail.com">
                 <button className="button s-button">
                     Hire me
                 </button>
@@ -43,19 +41,19 @@ const Works = () => {
             transition = {{duration: 3.5, type: 'spring'}}
             className="w-mainCircle">
                 <div className="secCircle">
-                    <img src={Upwork} alt="" />
+                    <img src={python} alt="" />
                 </div>
                 <div className="secCircle">
-                    <img src={Fiverr} alt="" />
+                    <img src={powerbi} alt="" />
                 </div>
                 <div className="secCircle">
-                    <img src={Amazon} alt="" />
+                    <img src={sql} alt="" />
                 </div>
                 <div className="secCircle">
-                    <img src={Shopify} alt="" />
+                    <img src={javascript} alt="" />
                 </div>
                 <div className="secCircle">
-                    <img src={Facebook} alt="" />
+                    <img src={reacticon} alt="" />
                 </div>
             </motion.div>
             <div className="w-backCircle blueCircle"></div>
