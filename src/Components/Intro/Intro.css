@@ -94,10 +94,12 @@
         height: 54rem;
         
     }
+    .i-right>:nth-child(4) {
+        left: -18rem!important;
+    }
     .i-right {
         transform: scale(.7);
         left: -2rem;
-        
         /* top: 3rem; */
     }
 
