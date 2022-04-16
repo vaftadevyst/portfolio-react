@@ -62,6 +62,9 @@
 }
 
 @media screen and (max-width: 480px) {
+    .testimonial {
+        margin-top: 5rem;
+    }
     .t-wrapper {
         padding: 0;
     }

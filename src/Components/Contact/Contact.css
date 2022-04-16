@@ -53,6 +53,7 @@ textarea {
         align-items: center;
         text-align: center;
         height: 80vh;
+        margin-top: 5rem;
     }
     .c-right .user{
         width: 18rem;
