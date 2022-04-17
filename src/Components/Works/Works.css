@@ -89,9 +89,28 @@
     }
     .w-mainCircle {
         position: static;
+        width: 16rem;
+        height: 16rem;
+    }
+    .w-mainCircle >:nth-child(1) {
+        left: 5rem;
+    }
+    .w-mainCircle >:nth-child(3) {
+        left: 5rem;
+    }
+    .w-mainCircle >:nth-child(4) {
+        left: 13rem;
+    }
+    .w-mainCircle >:nth-child(5) {
+        left: 5rem;
     }
     .w-backCircle {
-        left: 8rem !important;
-        
+        left: 7.5rem !important;    
+    }
+    .blueCircle {
+        top: -2rem;
+    }
+    .greenCircle {
+        top: 6rem;
     }
 }
